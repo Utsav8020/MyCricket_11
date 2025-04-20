@@ -1,8 +1,8 @@
 
-![Logo](https://firebasestorage.googleapis.com/v0/b/my11-518dd.appspot.com/o/ProfilePictures%2Ffront.png?alt=media&token=f67ed92c-6631-4388-b2e3-341d2d620ed4)
+
 
     
-# MY11
+# MYCricket11
 
 Get Cricket Live Matches, Match Details, Player Details ,Match Schedule and make your prediction for 3 players. Build with MVVM, Coroutines, Firebase,etc.
 
