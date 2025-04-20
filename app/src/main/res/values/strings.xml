@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My11</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rule">*If Predicted Team Wins you will get 100 trophy else you have to face loss of 50 trophy</string>
+    <string name="predict_win"><![CDATA[Predict & win]]></string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.LoginFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:backgroundTintMode="multiply"
+        android:backgroundTint="#FFFFFF">
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/logo_2"
+            android:backgroundTintMode="multiply"
+            android:backgroundTint="#FFFFFF"
+            android:layout_centerInParent="true">
+
+        </ImageView>
+
+
+        <RelativeLayout
+            android:id="@+id/login_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_centerInParent="true"
+            android:fadingEdge="horizontal"
+            android:background="@drawable/button"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/img_google"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/google_logo"></ImageView>
+
+            <TextView
+                android:id="@+id/text_google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in with Google"
+                android:layout_toRightOf="@+id/img_google"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/theme_red"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
